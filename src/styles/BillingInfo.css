@@ -1,0 +1,64 @@
+.billingInfo{
+
+    display: flex;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4%;
+
+}
+
+label{
+
+    margin: 6px;
+    margin-bottom: 12px;
+}
+
+label+input{
+
+    margin-bottom: 12px;
+
+}
+
+input,
+select{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #4E598C;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.partOne{
+
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.partTwo{
+
+    width: 18.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.partThree{
+
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+input:focus,
+select:focus{
+
+    outline: none;
+}

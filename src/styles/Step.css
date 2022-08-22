@@ -1,0 +1,39 @@
+
+.step{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+
+}
+
+.step-title{
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.step-title.active{
+    color: #F2994A;
+}
+
+.step-title.unactive{
+    color: #BDBDBD;
+}
+
+.step-highlighter{
+
+    border: none;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    background-color: #F2994A;
+    
+}
+
+.step-highlighter.unactive{
+
+    visibility: hidden;
+    
+}
